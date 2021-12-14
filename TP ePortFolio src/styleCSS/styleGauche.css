@@ -1,0 +1,194 @@
+ /*fichier css*/
+*{
+	outline: 0;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	transition: all 2s;
+}
+
+body{
+	background-color: #FFFFFF;
+	background-image: url(../images/hibiscus_tiled_gw.png);
+	min-height: 100%;
+	height: auto;
+
+}
+
+#globale{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+header{
+	height: 4.5em;
+	background-color: #FFFFFF;
+	background-image: url(../images/fond.jpg);
+	margin: 0% 0% 5% 0%;
+
+}
+
+#logo{
+	float: left;
+	background-image: url(../images/folio_logo_big.jpg);
+		background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	width: 30%;
+	height: inherit;
+}
+
+#nom{
+	float: left;
+	width: 70%;
+	padding: 1em 0 0 0;
+	text-align: center;
+	color: #04356C;
+
+
+}
+
+#page{
+	padding-left : 10%;
+	border-style : solid;
+	border-color : black;
+	text-align : left;
+	background-color: #ffffff;
+	padding: 0% 5% 5% 18%;
+}
+
+#secl{
+	padding: 1% 0% 1% 2%;
+}
+
+section h1{
+	margin: 2% 0% 2% 2%;
+
+}
+
+section p{
+	margin: 2% 0% 2% 2%;
+}
+
+article{
+	margin: 4% 4% 2% 4%;
+	padding: 0%;
+	border: solid black 1px;
+	border-width: 0.1em;
+	border-radius: 0.1em;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+article h1{
+	background: #EEEEEE;
+	border: 0;
+	margin: 0;
+	padding: 3%;
+	padding-left: 10%;
+}
+
+article p {
+border: 0;
+padding: 3%;
+}
+
+article video,audio {
+	margin: 2%;
+	max-width: 90%;
+}
+
+.audio h1{
+background: url(../images/note.png) no-repeat #EEEEEE;
+	background-position: 2% 50%;
+	background-size : 5% 60%;
+}
+
+.video h1 {
+	background: url(../images/pelli.png) no-repeat #EEEEEE;
+	background-position: 2% 50%;
+	background-size : 5% 60%;
+}
+
+.Decal {
+	padding:-left: 3%;
+}
+
+nav {
+	margin-top: 2%;
+	border: 1px solid grey;
+}
+
+nav ul li {
+	display: block;
+	background: #BBBBBB;
+
+	border-width:0.1em; 
+	border-style:solid;
+	border-color:white;
+	border-radius: 0.2em;
+
+	list-style-type: none;
+	text-align: center;
+	padding-top: 0.8%;
+	height: 1.5em;
+
+	transition: 0.2s; 
+}
+
+ #menu ul li a {
+    display: block;
+    font-size: 1em;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+ #menu ul li.active a {
+ 	color: black;
+ 	font-weight: bold;
+ 	background:#888888;
+ }
+
+ #menu ul li:hover{
+ 	background-color: #888888;
+ 	transition: 0.2s;
+ }
+
+ #menu ul li:hover a{
+ 	color: #000000;
+ }
+
+ #snav {
+ 	display: none;
+ }
+
+nav ul li:hover #snav {
+	display: block;
+	position: relative;
+	left:60%;
+
+	margin-top: 0.3%;
+	margin-left: 10% ;
+	width: 30%;
+}
+
+nav ul li:hover #snav li{
+	height: 1em;
+	padding-bottom: 1%;
+	margin:auto;
+}
+
+nav ul li:hover #snav li a{
+	font-style: italic;
+	color: white;
+	border: 1px solid black;
+	background: #888888;
+}
+
+nav ul li:hover #snav li:hover a{
+	color: black;
+}
+footer p{
+	text-align : center;
+	
+}

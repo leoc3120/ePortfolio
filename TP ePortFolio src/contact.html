@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Contact </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+		<!-- end mobile specific info -->
+		<link rel = "icon" type = "image/png" href = "images/logolc.png">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+				<link rel="stylesheet" type="text/css"  href="./styleCSS/styleContact.css "  />
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</head>
+	<body ontouchstart="">
+	
+	
+				<!-- Début du menu de navigation -->
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<a class="navbar-brand" href="accueil.html">
+							<img src="images/Universitelogo.png" alt="logo" class="logo">
+						</a>
+						<div class="navbar" id="navbarcoll">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item ml-5">
+									<a class="nav-link active" href="accueil.html">Accueil</a>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle " href="" data-toggle="dropdown">Compétences</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="competences.html#Concours">Concours</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="competences.html#Programmation">Programmation</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="competences.html#Baccalauréat">Baccalauréat</a>
+											</li>
+										</ul>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle" href="experiences.html" data-toggle="dropdown">Expériences</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="experiences.html#Stage">Stage</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="experiences.html#Projets">Projets</a>
+											</li>
+										</ul>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle" href="loisirs.html" data-toggle="dropdown">Loisirs</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Theatre">Théatre</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Musique">Musique</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Jeuxvideos">jeux-vidéos</a>
+											</li>
+										</ul>
+								</li>
+							</ul>
+						</div>
+				</div>
+				<!-- Fin du menu de navigation -->
+						
+						
+				<div style="clear:both"></div>
+						
+						
+				<!-- Début du cadre du milieu -->
+						<div id="entete">
+							<div  ></div>
+							<div id="milieu" >
+								<h1>Besoin de me contacter?</h1>
+								<p>Remplissez le formulaire ci-dessous</p>
+							</div>
+							<div  ></div>
+						</div>
+						<div id="page">
+							<section id="sec1">
+								<article id="apropos">
+									<div class="row" >
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+											<img src="images/tel.png" class="img-fluid" alt="Image de telephone" id="telephone">
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<div id="encadré">
+													<h1>Formulaire de contact</h1>
+													<div class="formulaire"> <!-- Création du formulaire avec bootstrap-->
+													</div>
+													
+													<div class="panel-body">
+														<form>
+															<div class="form-group">
+																<label for="email">Adresse email</label>
+																<input type="email" class="form-control" id="email" placeholder="name@example.com">
+																</div>
+																<div class="form-group">
+																	<label>Sujet</label>
+																	<input type="text" class="form-control" placeholder="Votre sujet"></input>
+																</div>
+																<div class="form-group">
+																	<label>Votre message</label>
+																	<textarea class="form-control"  rows="3"></textarea>
+																</div>
+																<button type="button" class="btn btn-warning">Envoyer</button>
+															</form>
+														</section>
+													</div>
+													<!-- Fin du cadre du milieu -->
+													
+													
+													
+													<!-- Début du footer -->
+													<div id="footer">
+														<footer class="bg-light text-center text-lg-start">
+															<div class="text-center p-3" style="background-color: rgba(245,245,245)">
+															© 2020 Copyright :
+															<a class="text-dark" href="https:/facebook.com/">Léo Charlotte</a>
+															</div>
+														</footer>
+													</div>
+													<!-- Fin du footer -->
+												
+	</body>
+</html>

@@ -1,0 +1,196 @@
+/*Général*/
+body {
+	min-height: 100%; 
+	height: auto; 
+	background-image: url(../images/background.jpg)  ;
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+}
+p, h1{
+	font-family : verdana;
+	animation : transitionIn 1.5s;
+}
+article h1 {
+	font-size : 30px;
+	margin-top : 3%;
+	margin-bottom  : -3%;
+	color : white;
+}
+/*Fin du général*/
+
+
+/*Css du menu de navigation*/
+.logo {
+	float : left;
+	width : 160px;
+	height : 85px;
+	padding : 10px 0;
+	margin-left : -50px;
+	
+}
+.navbar {
+	padding-left: 10%;
+	
+}
+
+
+/*Fin du Css pour le menu de navigation*/
+
+
+/*Css du Cadre du milieu*/
+#sec1 {
+	text-align : center;
+}
+#moi /*photo*/{
+	height : 150px;
+	max-height : 100%;
+	object-fit : cover;
+	width : 150px;
+	max-width : 100%;
+	border-radius : 50%;
+	border-color : #8B0000;
+	border-style : solid;
+	border-width : 4px;
+	margin : 0% 2% -5% -75%;
+	vertical-align : baseline;
+	
+}
+#encadré h1 {
+	border-style : solid;
+	border-color : black;
+	padding : 2%;
+	color : white !important; 
+	background-image: url(../images/background.jpg); 
+	background-size : 100%;
+	background-repeat : no-repeat;
+}
+#encadré a {
+	margin-left : 30%;
+	background-image: url(../images/background.jpg);
+}
+#apropos /*Cadre exterieur*/ {
+	border-style : solid;
+	background-image : url(../images/titreback.jpg);
+	background-size :  cover;
+	border-width : 5%;
+	border-color : black;
+	border-radius : 15px;
+	margin : 5%;
+	padding : 2%;
+	box-shadow : 4px 4px 4px #aaa;
+	font: 1.2em "Fira Sans", sans-serif;
+}
+#apropos h1 {
+	color : black;
+	margin-left : 30%; 
+	margin-top : -5%;
+	margin-bottom : 5%;
+}
+#encadré /*Cadre interieur*/ {
+	
+	padding : 5%;
+	border-style : solid;
+	border-color : black;
+	border-radius : 15px;
+	background-color : #F5F5F5;
+	margin : 0% 0% 0% 0%;
+}
+#encadré p {
+	
+	margin-left : 30%;
+	margin-right : 1%;
+	margin-top : 1%;
+	margin-bottom : 1%;
+}
+
+#entete div  {
+	background-image : url(../images/titreback.jpg);
+	font: 1.2em "Fira Sans", sans-serif;
+	border-style : solid;
+	border-color : black;
+	border-radius : 15px;
+	text-align : center;
+	display : table-cell;
+	height : 100%;
+	box-shadow : 4px 4px 4px #aaa;
+	color : white;
+	padding-top : -20px;
+	
+}
+#entete {
+	display : table;
+	font-size : 1vw;
+	width : 80%;
+	margin : auto;
+	height : 50px;
+	table-layout : fixed;
+	vertical-align : top;
+	border-spacing : 20px;
+}
+#entete h1 {
+	font-size : 2vw;
+}
+#milieu {
+	width : 50%;
+}
+/*Fin du Css pour le cadre du milieu*/
+
+
+
+/*Css des carrés du bas*/
+#contact /*gauche*/{
+	width : 30%;
+	float : left;
+	border-style : solid;
+	background-color : #D3D3D3;
+	border-width : 5%;
+	border-color : #006400;
+	border-radius : 50px;
+	box-shadow : 4px 4px 4px #aaa;
+	margin : 5% 10% 5% 10%;
+	padding : 2%;
+	display : inline-block;
+	background-image: url(../images/background.jpg);
+	background-size : 200% 100%;
+
+}
+#DUT /*droite*/{
+	width : 30%;
+	float : right;
+	border-style : solid;
+	background-color : #D3D3D3;
+	border-width : 5%;
+	border-color : black;
+	border-radius : 50px;
+	box-shadow : 4px 4px 4px #aaa;
+	padding : 2%;
+	margin : 5% 10% 5% 5%;
+	display : inline-block;
+	background-image: url(../images/titreback.jpg);
+	background-size : 100% 200%;
+	
+}
+#DUT p, #DUT h1, #contact p, #contact h1 {
+	color : white;
+	margin : 3%;
+
+}
+/*Fin du Css pour les carrés du bas*/
+
+
+/*Footer*/
+#footer {
+	margin-top : 30%;
+	color : black;
+}
+footer p {
+	text-align: center;
+}
+/*Fin du Css du Footer*/
+
+
+/*Transition lors du resize*/
+*{
+    transition: all 1.3s;
+}

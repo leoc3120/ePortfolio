@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Accueil </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+		<!-- end mobile specific info -->
+		<link rel = "icon" type = "image/png" href = "images/logolc.png">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+				<link rel="stylesheet" type="text/css"  href="./styleCSS/styleAccueil.css "  />
+				<link rel="stylesheet" type="text/css"  href="./styleCSS/transition.css "  />
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	</head>
+	<body ontouchstart="">
+			
+				<!-- Menu de navigation -->
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<a class="navbar-brand" href="accueil.html">
+							<img src="images/Universitelogo.png" alt="logo" class="logo">
+						</a>
+						<div class="navbar " id="navbarcoll">
+							<ul class="navbar-nav mr-auto ">
+								<li class="nav-item ml-5">
+									<a class="nav-link active" href="accueil.html">Accueil</a>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle" href="competences.html" data-toggle="dropdown">Compétences</a>
+										<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="competences.html#Concours">Concours</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="competences.html#Programmation">Programmation</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="competences.html#Baccalauréat">Baccalauréat</a>
+								</li>
+								</ul>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Expériences</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="experiences.html#Stage">Stage</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="experiences.html#Projets">Projets</a>
+											</li>
+										</ul>
+								</li>
+								<li class="nav-item dropdown ml-5">
+									<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Loisirs</a>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Theatre">Théatre</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Musique">Musique</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="loisirs.html#Jeuxvideos">jeux-vidéos</a>
+											</li>
+										</ul>
+								</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<!-- Fin du menu de navigation -->
+					
+					
+					<div style="clear:both"></div>
+					
+					
+					<!--Les 3 cases en haut de la page -->
+					<div id="entete">
+						<div></div>
+						<div id="milieu">
+							<h1> Léo Charlotte</h1>
+							<p> Bienvenue sur mon portfolio</p>
+						</div>
+						<div></div>
+					</div>
+					<!-- Fin des 3 cases en haut de page -->
+					
+					
+					
+					<!--Début de page -->
+					<div id="page">
+						<section id="sec1">
+							<!-- Aligner le texte de toute la page -->
+							<article id="apropos">
+								<!-- Défini le gros cadre-->
+								<div id="encadré">
+									<!-- Défini le cadre interne -->
+									<img id="moi" src="images/moi.jpg" alt="Photo de moi">
+										<h1>Qui suis-je?</h1>
+										<p>Je m'appelle Léo Charlotte, j'ai 18 ans et suis étudiant en DUT informatique à l'IUT de Paris.</p>
+										<p>Je suis passioné d'informatique et de jeux vidéos.</p>
+										<p>C'est à partir de 2017 que j'ai débuté mes premiers projets liés à l'informatique, notamment avec la fabrication de mon premier ordinateur</p>
+										<p>Dans mon temps libre, je développe et crée de nombreux projets, tel que des applications, des sites web ou encore des circuits hardware avec Arduino et Raspberry Pi.</p>
+										<br></br>
+										<a href="competences.html" class="btn btn-primary " role="button" aria-disabled="true">En savoir plus</a>
+									</div>
+								</article>
+								
+								<!--Fin de la première case -->
+								<a href="contact.html" >
+									<!--Première sous case -->
+									<article id="contact">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+											<div >
+												<h1>Me contacter</h1>
+											</div>
+										</div>
+									</article>
+								</a>
+								<!-- Fin première sous case -->
+								
+								
+								<article id="DUT">
+									<!-- Début deuxième sous case -->
+									<a href="https://www.iut.parisdescartes.fr/informatique/diplome-universitaire-de-technologie-informatique/">
+										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+											<div >
+												<h1>Le DUT Informatique</h1>
+											</div>
+										</div>
+									</a>
+								</article>
+								<!-- Fin deuxième sous case -->
+								
+								
+							</section>
+						</div>
+					<!-- Fin de page-->
+						
+						
+						
+						<!-- Footer -->
+						<div id="footer">
+							<footer class="bg-light text-center text-lg-start">
+								<div class="text-center p-3" style="background-color: rgba(245,245,245)">
+								© 2020 Copyright :
+									<a class="text-dark" href="https:/facebook.com/">Léo Charlotte</a>
+								</div>
+							</footer>
+						</div>
+						<!-- Fin du footer -->
+	</body>
+</html>

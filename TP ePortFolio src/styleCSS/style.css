@@ -1,0 +1,181 @@
+/*fichier css*/
+
+body {
+	min-height: 100%; 
+	height: auto; 
+	background-image: url(../images/hibiscus_tiled_gw.png);
+}
+
+#page {
+	padding-left : 10%;
+	border-style : solid;
+	border-color : black;
+	text-align : left;
+	background-color: #ffffff;
+	padding: 0% 5% 5% 18%;
+}
+
+#sec1 {
+	padding : 1% 0% 1% 2%
+}
+
+section h1, section p {
+	margin : 2% 2% 2% 5%;
+
+}
+
+#globale
+{
+	width: 80%; 
+	margin: 0 auto; 
+	padding: 3%;
+}
+
+h1 {
+	color:blue;
+	text-align: left;
+}
+
+a  {
+	text-transform:blue;
+	text-align: left;
+}
+
+p {
+	color:blue;
+	text-align: left;
+}
+
+article {
+	margin: 5%;
+	border-width: 3%;
+	border-color: black;
+	border-style : solid;
+	border-radius : 1%;
+	box-shadow: 4px 4px 4px #aaa;
+}
+article h1 {
+	background-color: #eeeeee;
+	border: 0;
+	margin : 0;
+	padding: 3%;
+	padding-left : 10%;
+}
+.audio h1 {
+	background: url(../images/note.png) no-repeat #EEEEEE;
+	background-position: 2% 50%;
+	background-size : 5% 60%;
+	
+}
+.video h1 {
+	background: url(../images/pelli.png) no-repeat #EEEEEE;
+	background-position: 2% 50%;
+	background-size : 5% 60%;
+	
+}
+
+article video, article audio {
+	max-width: 90%;
+	margin : 0 0 2% 5%;
+}
+
+header {
+	height : 5.5em;
+	background-image: url(../images/fond.jpg);
+	margin : 0% 0% 4% 0%;
+
+}
+
+#logo {
+	background-image: url(../images/Universitelogo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	width: 30%;
+	height: inherit;	
+}
+#nom {
+
+	text-align: center;
+}
+
+#nom p{
+	padding-top : -5em; 
+	text-align: center;
+	margin-top : -1em;
+}
+#nom  h1{
+	padding-top : 0.35em;
+	text-align: center;
+	
+}
+
+
+
+#menu {
+	
+	float : left;	
+	max-width : 17%;
+	margin : -1% 6% 2% 0%;
+	padding : 2% 2% 2% 2%;
+	min-width : 14%;
+	
+}
+
+#menu ul {
+	list-style-type : none;
+	padding : 1% 1% 1% 1%;
+	width : 117%;
+	
+	
+}
+
+#menu ul li{
+	border-style : solid;
+	border-color : black;
+	border-width : 0.5%;
+	text-align : center;
+	margin : 0 -15% 1% 0;
+	background-color : #bbbbbb;
+	
+
+	
+}
+
+#menu ul li a 
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #04356C;
+
+	
+	
+}
+
+#snav {
+	margin-left : 20%;
+	
+}
+
+#snav li {
+	width : 80%;
+	position : top;
+	
+}
+
+#menu ul li:hover
+{
+	background-color: #888888; 
+	transition: 0.2s;
+}
+
+
+
+article p {
+	padding-left : 5%;
+}
+
+footer p{
+	text-align : center;
+	
+}
